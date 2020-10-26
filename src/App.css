@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Poller One', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Poller One', cursive;
+  background-image: url("Images/sky.jpg");
+  color: #ffcb48;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header, footer {
+  background-color: rgba(60, 69, 67, 0.6);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header {
+  border-radius: 25px 25px 0 0;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-danger {
+  background-color: rgba(204, 3, 35, 0.5);
+  font-size: 1em;
+  color: #ffcb48;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border {
+  border-radius: 0 0 15px 15px;
+  border-color: #ffcb48!important;
+}
+
+.bottomLeft {
+  border-bottom-left-radius: 15px;
+}
+
+.bottomRight {
+  border-bottom-right-radius: 15px;
+}
+
+.hero {
+  box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
+}
+
+.farGalaxy {
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  line-height: 1.3;
+  text-align: justify;
+}
+
+footer {
+  border-radius: 0 0 25px 25px;
+  height: 4em;
+
+}
+
+footer .btn {
+  font-size: 0.8em;
+}
+
+.email {
+  color: black;
+  font-size: 1.2em;
 }
